@@ -12,12 +12,28 @@ we propose a deep neural network (NN) architecture, namely the bidirectional Lon
 ## DESIGN STEPS
 
 ### STEP 1:
+Import the necessary packages.
 
 ### STEP 2:
+Load the dataset, and fill the null values using forward fill
 
 ### STEP 3:
+Create a list of words, and tags. Also find the number of unique words and tags in the dataset.
 
-Write your own steps
+### STEP 4:
+Create a dictionary for the words and their Index values. Do the same for the tags as well.Train and test the dataset.
+
+### STEP 5:
+Perform padding the sequences to acheive the same length of input data.
+
+### STEP 6:
+Build a model using Input, Embedding, Bidirectional LSTM, Spatial Dropout, Time Distributed Dense Layers.
+
+### STEP 7:
+Compile the model and fit the train sets and validation sets.
+
+### STEP 8
+Plot the necessary graphs for analysis. A custom prediction is done to test the model manually.
 
 ## PROGRAM
 ```
